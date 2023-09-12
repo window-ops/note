@@ -1,14 +1,6 @@
 * {
   box-sizing: border-box;
 }
-html {
-  font-size: 16px;
-  line-height: 1.5;
-}
-body {
-  font-family: sans-serif;
-  color: #333;
-}
 .main-content {
   max-width: 1000px;
   margin: 0 auto;
@@ -38,7 +30,7 @@ body {
 }
 @media (max-width: 768px) {
   #note {
-    height: calc(100vh - 175px);
+    height: calc(100vh - 172px);
     resize: none;
   }
 }
