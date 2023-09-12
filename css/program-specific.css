@@ -1,0 +1,53 @@
+.main-content {
+  max-width: 1000px; 
+  margin: 0 auto;
+}
+.top {
+  border-radius: 0px 0px 10px 10px;
+  border-top: none;
+}
+@media (max-width: 768px) {
+  .top {
+    border-radius: 0px 0px 0px 0px;
+  }
+}
+.form-check-input {
+  border-radius: 5px;
+}
+#theme-switcher {
+  margin-left: 15px;
+}
+#note {
+  height: calc(100vh - 150px);
+  resize: none;
+}
+@media (max-width: 768px) {
+  #note {
+    height: calc(100vh - 174px);
+    resize: none;
+  }
+}
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.bottom {
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: none;
+}
+@media (max-width: 768px) {
+  .bottom {
+    border-radius: 0px 0px 0px 0px;
+  }
+}
+.form-control, .btn {
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .control-upper {
+    margin-bottom: 10px;
+  }
+}
