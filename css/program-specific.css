@@ -21,6 +21,8 @@ body {
 @media (max-width: 768px) {
   .top {
     border-radius: 0;
+    border-left: none;
+    border-right: none;
     margin-bottom: 0;
   }
 }
@@ -60,6 +62,8 @@ body {
 @media (max-width: 768px) {
   .bottom {
     border-radius: 0;
+    border-left: none;
+    border-right: none;
   }
 }
 .form-control,
