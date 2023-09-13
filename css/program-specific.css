@@ -31,3 +31,8 @@
     border-left: none;
   }
 }
+@media (max-width: 768px) {
+  .btn-upper {
+    margin-bottom: 10px;
+  }
+}
