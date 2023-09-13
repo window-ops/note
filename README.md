@@ -1,3 +1,3 @@
 # Note
 
-A basic note-taking application with an adaptive design.
+A basic note-taking application with a simple design.
