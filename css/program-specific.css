@@ -1,9 +1,8 @@
-.main-content {
-  max-width: 1000px;
-  margin: 0 auto;
-}
 .top {
   border-top: none;
+}
+.bottom {
+  border-radius: 0px 0px 10px 10px;
 }
 @media (max-width: 1000px) {
   .top {
@@ -11,6 +10,14 @@
     border-right: none;
     border-left: none;
   }
+  .bottom {
+    border-right: none;
+    border-left: none;
+  }
+}
+.main-content {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .form-check-input {
   border-radius: 5px;
@@ -21,15 +28,6 @@
 .form-control,
 .btn {
   border-radius: 10px;
-}
-.bottom {
-  border-radius: 0px 0px 10px 10px;
-}
-@media (max-width: 1000px) {
-  .bottom {
-    border-right: none;
-    border-left: none;
-  }
 }
 @media (max-width: 768px) {
   .btn-upper {
