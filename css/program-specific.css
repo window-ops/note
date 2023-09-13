@@ -29,8 +29,3 @@
 .bottom {
   border-radius: 0px 0px 10px 10px;
 }
-@media (max-width: 768px) {
-  .bottom {
-    border-radius: 0px 0px 0px 0px;
-  }
-}
