@@ -31,7 +31,6 @@
 @media (max-width: 768px) {
   #note {
     height: calc(100vh - 172px);
-    resize: none;
   }
 }
 .bottom-bar {
