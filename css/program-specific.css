@@ -22,43 +22,12 @@
 #theme-switcher {
   margin-left: 15px;
 }
-#note {
-  height: calc(100vh - 150px);
-  max-height: calc(100vh - 150px);
-}
-@media (max-width: 768px) {
-  #note {
-    height: calc(100vh - 197.5px);
-    max-height: calc(100vh - 197.5px);
-  }
-}
-.bottom-bar {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 56px;
-}
-@media (max-width: 768px) {
-  .bottom-bar {
-    margin-top: 0;
-  }
-}
-.bottom {
-  border-radius: 10px 10px 0 0;
-  border-bottom: none;
-}
-@media (max-width: 768px) {
-  .bottom {
-    border-radius: 0;
-    border-left: none;
-    border-right: none;
-  }
-}
 .form-control,
 .btn {
   border-radius: 10px;
+}
+.bottom {
+  border-radius: 0px 0px 10px 10px;
 }
 @media (max-width: 768px) {
   .control-upper {
