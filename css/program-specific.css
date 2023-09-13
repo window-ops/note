@@ -1,3 +1,16 @@
+.main-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.form-check-input {
+  border-radius: 5px;
+}
+#theme-switcher {
+  margin-left: 15px;
+}
+.form-control, .btn {
+  border-radius: 10px;
+}
 .top {
   border-top: none;
 }
@@ -11,23 +24,10 @@
     border-left: none;
   }
   .bottom {
+    border-radius: 0px 0px 0px 0px;
     border-right: none;
     border-left: none;
   }
-}
-.main-content {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-.form-check-input {
-  border-radius: 5px;
-}
-#theme-switcher {
-  margin-left: 15px;
-}
-.form-control,
-.btn {
-  border-radius: 10px;
 }
 @media (max-width: 768px) {
   .btn-upper {
