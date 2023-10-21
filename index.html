@@ -26,23 +26,4 @@
       </div>
     </div>
   </div>
-  <script>
-    const themeSwitcher = document.getElementById('theme-switcher');
-    // Toggle the theme on switcher change
-    themeSwitcher.addEventListener('change', () => {
-      const currentTheme = document.body.getAttribute('data-bs-theme');
-      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-      document.body.setAttribute('data-bs-theme', newTheme);
-      localStorage.setItem('theme', newTheme);
-    });
-    // Apply saved theme on page load
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      document.body.setAttribute('data-bs-theme', savedTheme);
-      themeSwitcher.checked = savedTheme === 'dark';
-    } else {
-      // If no theme is saved, default to light theme
-      document.body.setAttribute('data-bs-theme', 'light');
-    }
-  </script>
 </body>
