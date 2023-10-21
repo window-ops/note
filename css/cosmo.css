@@ -12,4 +12,4 @@
  
  /* Added by window-ops */
 
- .main-content{max-width:1000px;margin:0 auto}.form-check-input{border-radius:5px}#theme-switcher{margin-left:15px}.btn,.form-control{border-radius:10px}.top{border-top:none}.bottom{border-radius:0 0 10px 10px}@media (max-width: 1000px){.top{border-top:none;border-right:none;border-left:none}.bottom{border-radius:0 0 0 0;border-right:none;border-left:none}}@media (max-width: 768px){.btn-upper{margin-bottom:10px}}
+ .main-content{max-width:1000px;margin:0 auto}.form-check-input{border-radius:5px}.btn,.form-control{border-radius:10px}.top{border-top:none}.bottom{border-radius:0 0 10px 10px}@media (max-width: 1000px){.top{border-top:none;border-right:none;border-left:none}.bottom{border-radius:0 0 0 0;border-right:none;border-left:none}}@media (max-width: 768px){.btn-upper{margin-bottom:10px}}
