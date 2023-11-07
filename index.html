@@ -5,8 +5,9 @@
   <title>Note</title>
   <link rel="stylesheet" href="./css/default.css">
   <script src="./js/functions.js"></script>
+  <script src="https://miculpionier.ro/js/contextMenu_Project.js"></script>
 </head>
-<body data-bs-theme="light">
+<body>
   <div class="container-fluid">
     <div class="card top">
       <div class="card-body">
@@ -15,13 +16,9 @@
     </div>
     <div class="card bottom">
       <div class="card-body">
-        <div class="row">
-          <div class="col-md">
-            <button class="btn btn-primary btn-upper w-100" onclick="saveNote()">Save</button>
-          </div>
-          <div class="col-md">
-            <button class="btn btn-secondary w-100" onclick="clearNote()">Clear</button>
-          </div>
+        <div class="btn-group btn-group-justified d-flex">
+         <button class="btn btn-primary" onclick="saveNote()">Save</button>
+         <button class="btn btn-secondary" onclick="clearNote()">Clear</button>
         </div>
       </div>
     </div>
